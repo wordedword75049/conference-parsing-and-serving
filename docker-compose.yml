@@ -1,0 +1,10 @@
+version: "3.2"
+
+# см. https://docs.docker.com/compose/compose-file/compose-file-v3/
+
+services:
+  server:
+    build: .
+    restart: always
+    ports:
+      - 5000:5000
